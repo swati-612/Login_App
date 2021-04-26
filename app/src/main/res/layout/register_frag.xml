@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#1B98F5"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/registerpage"
+        android:padding="5dp"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/final_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:padding="10dp"
+        android:layout_margin="5dp" />
+
+</LinearLayout>
